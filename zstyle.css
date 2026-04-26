@@ -1,0 +1,646 @@
+[hidden] {
+    display: none !important;
+}
+
+#home {
+    background-image: url("images/actualbg.jpeg");
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#links {
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 50px;
+    backdrop-filter: blur(5px);
+    margin-bottom: 0%;
+    height: 60px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 30px;
+    padding-right: 20px;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+a:hover {
+    text-decoration: solid underline;
+    text-underline-offset: 170%;
+}
+
+nav {
+    text-align: right;
+    margin-top: 3%;
+    margin-right: 0%;
+    background-color: rgba(57, 59, 64, 0.425);
+    margin-left: 35%;
+    height: 95px;
+    width: 65%;
+}
+
+#heading {
+    margin-left: 50px;
+    display: flex !important;
+    gap: 250px;
+    margin-top: 0px;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+
+#title {
+    margin-top: 50%;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#Explore {
+    margin-top: 200px;
+    background-image: URL("images/white.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    border: none;
+    font-size: 160%;
+    outline: 60px solid transparent;
+    transition: outline-color 0.4s ease-in-out;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#Explore:hover {
+    outline-color: black;
+}
+
+#TitleDesc {
+    margin-left: 40px;
+}
+
+#title {
+    font-size: 200%;
+    margin-bottom: 0px;
+    color: rgb(208, 214, 249);
+}
+
+#COSMOS {
+    margin-top: 5px;
+    margin-left: 6%;
+    font-size: 500%;
+    margin-bottom: 5%;
+}
+
+#desc {
+    margin-top: 0px;
+    font-size: 100%;
+    color: rgb(208, 214, 249);
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 170%;
+}
+
+#destpage {
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/spacefordest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+.Destinations {
+    margin-top: 10%;
+    margin-left: 3.5%;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(174, 174, 174);
+    outline: none;
+}
+
+.destinationlabels {
+    color: white;
+    font-size: 19px;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#moonlabel {
+    margin-left: 2.5%;
+    margin-right: 0%;
+}
+
+#mercurylabel {
+    margin-left: 1.35%;
+    margin-right: 0%;
+}
+
+#venuslabel {
+    margin-left: 0.6%;
+    margin-right: 0%;
+}
+
+#marslabel {
+    margin-left: 2%;
+    margin-right: 0%;
+}
+
+#jupiterlabel {
+    margin-left: 1.5%;
+    margin-right: 0%;
+}
+
+#saturnlabel {
+    margin-left: 1.1%;
+    margin-right: 0%;
+}
+
+#uranuslabel {
+    margin-left: 1.1%;
+    margin-right: 0%;
+}
+
+#neptunelabel {
+    margin-left: 0.6%;
+    margin-right: 0%;
+}
+
+#MoonInfo {
+    display: flex;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 20%;
+}
+
+#MoonInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+.desthead {
+    font-size: 50px;
+    margin-right: 30%;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.info {
+    color: white;
+}
+
+#MercuryInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.8%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 21%;
+}
+
+#MercuryInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#VenusInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.88%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 24%;
+}
+
+#VenusInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#MarsInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.68%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 18%;
+}
+
+#MarsInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#JupiterInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.8%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 21%;
+}
+
+#JupiterInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#SaturnInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.75%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 7%;
+}
+
+#SaturnInfo img {
+    width: 450px;
+    height: auto;
+    opacity: 100%;
+    margin-bottom: 2.65%;
+}
+
+#UranusInfo {
+    display: flex;
+    color: white;
+    margin-top: 6.68%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 19%;
+}
+
+#UranusInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#NeptuneInfo {
+    display: flex;
+    color: white;
+    margin-top: 5.17%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 19%;
+}
+
+#NeptuneInfo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+#chooser {
+    font-size: larger;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    color: white;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#chooser h1 {
+    margin-bottom: 3%;
+}
+
+#crewpage {
+    background-color: black;
+    background-image: url(images/skybg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#labels {
+    display: flex;
+    margin-top: 0.5%;
+    font-size: 19px;
+}
+
+.CrewMembers {
+    margin-top: 7%;
+    margin-left: 5%
+}
+
+.crewlabels {
+    color: white;
+    font-size: 19px;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#commanderlabel {
+    margin-left: 2.5%;
+}
+
+#pilotlabel {
+    margin-left: 2.2%;
+}
+
+#ms1label {
+    margin-left: 3%;
+}
+
+#ms2label {
+    margin-left: 1.5%;
+}
+
+#erlabel {
+    margin-left: 1.5%;
+}
+
+#CommanderInfo {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    display: flex;
+    color: white;
+    gap: 15%;
+}
+
+#CommanderInfo img {
+    width: 200px;
+    height: auto;
+}
+
+#Members h3 {
+    margin-top: 0%;
+    text-decoration-color: white;
+    text-decoration: solid underline;
+    text-underline-offset: 50%;
+    margin-bottom: 3%;
+}
+
+#PilotInfo {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    display: flex;
+    color: white;
+    gap: 21%;
+}
+
+#PilotInfo img {
+    height: 244px;
+    width: auto;
+    margin-bottom: 0.5%;
+}
+
+#MissionSpecialist1Info {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    display: flex;
+    color: white;
+    gap: 18%;
+}
+
+#MissionSpecialist1Info img {
+    width: 200px;
+    height: auto;
+    max-height: 250px;
+}
+
+#MissionSpecialist2Info {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    display: flex;
+    color: white;
+    gap: 10%;
+}
+
+#MissionSpecialist2Info img {
+    width: 444px;
+    height: auto;
+}
+
+
+#EnduranceReserveInfo {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    display: flex;
+    color: white;
+    gap: 15%;
+}
+
+#EnduranceReserveInfo img {
+    height: 250px;
+    width: auto;
+}
+
+#meeter {
+    margin-left: 3%;
+    margin-bottom: 0%;
+    color: white;
+    font-family: Barlow, Verdana, Geneva, serif;
+}
+
+#meeter h1 {
+    margin-bottom: 3%;
+}
+
+#vehiclepage {
+    background-color: black;
+    background-image: url(images/vebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#Vehicles label {
+    color: white;
+    font-size: 19px;
+    font-family: "Barlow Condensed", serif !important;
+    text-align: center;
+}
+
+#Vehicles input {
+    margin-top: 7%;
+    margin-left: 5%
+}
+
+#forOrion {
+    margin-left: 2.9%;
+}
+
+#forSLS {
+    margin-left: 2%;
+}
+
+#forLG {
+    margin-left: 2.8%;
+}
+
+#forSX {
+    margin-left: 2.6%;
+}
+
+#OrionInfo {
+    display: flex;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 13%;
+}
+
+#OrionInfo img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#Spacecrafts h3 {
+    margin-top: 0%;
+    text-decoration-color: white;
+    text-decoration: solid underline;
+    text-underline-offset: 50%;
+    margin-bottom: 3%;
+}
+
+#SLSInfo {
+    display: flex;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 9.5%;
+}
+
+#SLSInfo img {
+    width: 342px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#LunarGetawayInfo {
+    display: flex;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 12%;
+}
+
+#LunarGetawayInfo img {
+    height: 150px;
+    width: auto;
+    object-position: center;
+}
+
+#SpaceXInfo {
+    display: flex;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    gap: 15%;
+}
+
+#SpaceXInfo img {
+    height: 180px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#shower {
+    margin-left: 3%;
+    margin-bottom: 0%;
+    color: white;
+    font-family: "Barlow Condensed", serif !important;
+}
+
+#shower h1 {
+    margin-bottom: 3%;
+}
+
+.v {
+    margin-top: 4%;
+    display: flex;
+    gap: 5%;
+    box-shadow: 0px -1px #FFFFFF;
+}
+
+
+.d h3 {
+    margin-top: 0%;
+}
+
+.t h3 {
+    margin-top: 0%;
+}
+
+.d p {
+    margin-bottom: 2%;
+}
+
+.t p {
+    margin-bottom: 2%;
+}
+
+.arrow {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid #ffffff;
+    height: 20px;
+    width: 20px;
+    border-width: 0px 5px 5px 0px;
+    display: inline-block;
+    margin-left: 95%;
+    padding: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
