@@ -58,6 +58,9 @@ nav {
 #title {
     margin-top: 50%;
     font-family: "Barlow Condensed", serif !important;
+    font-size: 200%;
+    margin-bottom: 0px;
+    color: rgb(208, 214, 249);
 }
 
 #Explore {
@@ -83,12 +86,6 @@ nav {
 
 #TitleDesc {
     margin-left: 40px;
-}
-
-#title {
-    font-size: 200%;
-    margin-bottom: 0px;
-    color: rgb(208, 214, 249);
 }
 
 #COSMOS {
@@ -643,4 +640,261 @@ input[type="radio"]:checked {
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    #home {
+        margin: 0px;
+        width: 100% !important;
+        min-height: 100dvh !important;
+        display: block !important;
+    }
+
+    #forbg {
+        display: none;
+    }
+    
+    #links {
+        padding: 0px;
+        padding-top: 20px;
+        padding-left: 50px;
+        margin: 0px;
+        margin-right: 0px;
+        gap: 0px;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #links a {
+        font-size: 0.9rem;
+        text-underline-offset: 3px;
+        text-align: center;
+    }
+    
+    nav {
+        padding: 0px;
+        margin: 0px;
+        width: 100vw;
+        
+    }
+
+    #heading {
+        margin-left: 20px;
+        margin-top: 0px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    #title {
+        margin-top: 20%;
+        font-size: 2rem;
+    }
+
+    #TitleDesc{
+        margin-left: 20px;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+
+    #COSMOS {
+        margin-top: 1px;
+        margin-left: 10%;
+        font-size: 5rem;
+        margin-bottom: 0px;
+    }
+
+    #desc {
+        margin-top: 3px;
+    }
+
+     #Explore {
+        margin-top: 150px;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        outline: 50px solid black;
+        margin-left: 100px;
+    }
+
+    #destpage {
+        margin: 0px;
+    }
+
+    .Destinations {
+        margin-top: 10%;
+        margin-left: 21px;
+    }
+
+    .destinationlabels {
+        font-size: 0.8rem;
+        margin-left: 8px !important;
+    }
+
+    #Destinations {
+        margin-left: 3%;
+    }
+
+    #moonlabel {
+    margin-left: 4.5% !important;
+    margin-right: 0%;
+    }
+    
+    #mercurylabel {
+    margin-left: 1.1% !important;
+    margin-right: 0%;
+    }
+
+    #marslabel {
+    margin-left: 3% !important;
+    margin-right: 0%;
+    }
+
+    #saturnlabel {
+    margin-left: 1.1% !important;
+    margin-right: 0%;
+    }
+
+    #uranuslabel {
+    margin-left: 1.5% !important;
+    margin-right: 0%;
+    }
+
+    #neptunelabel {
+    margin-left: 1% !important;
+    margin-right: 0%;
+    }
+
+    #MoonInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 8%;
+    margin-left: 3%;
+    gap: 0%;
+    font-size: 0.9rem !important;
+    margin-right: 3%;
+    }
+
+    .desthead {
+    font-size: 3rem;
+    margin-right: 30%;
+    color: white;
+    margin-bottom: 0%;
+    }
+
+    .arrow {
+    display: none;
+    }
+
+    #MoonInfo img {
+        margin-bottom: 3.7%;
+    }
+
+    #MercuryInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6.8%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    font-size: 0.9rem !important;
+    }
+
+    img {
+    margin-top: 10%;
+    margin-left: 25%;
+    height: 150px !important;
+    width: 150px !important;
+    }
+    
+    #VenusInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6.88%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%;    
+    }
+
+    #MarsInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6.68%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%;   
+    }
+    
+    #JupiterInfo {
+    flex-direction: column;
+    display: flex;
+    color: white;
+    margin-top: 6.8%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%;   
+    }
+    
+    #SaturnInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6.75%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%; 
+    }
+
+    #SaturnInfo img {
+    width: 320px !important;
+    height: auto;
+    opacity: 100%;
+    margin-left: 4%;
+    margin-bottom: 0%;
+    }
+
+    #UranusInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6.68%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%; 
+    }
+
+    #UranusInfo img {
+        margin-top: 5%;
+    }
+
+    #NeptuneInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 5.17%;
+    margin-bottom: 0%;
+    margin-left: 3.5%;
+    font-size: 0.9rem !important;
+    margin-right: 3.5%; 
+    }
+
+    #NeptuneInfo img {
+        margin-top: 0%;
+        margin-bottom: -3.2%;
+    }
 }
